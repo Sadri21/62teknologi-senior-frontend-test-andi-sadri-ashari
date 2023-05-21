@@ -42,11 +42,12 @@ struct SearchDashboard: View {
             } label: {
                 Text("Search")
                     .fontWeight(.bold)
+                    .frame(height: 20)
                     .frame(minWidth: 0, maxWidth: .infinity)
                 
             }
             .frame(minWidth: 0, maxWidth: .infinity)
-            .frame(height: 15)
+            .frame(height: 20)
             .modifier(ButtonModifier())
             .padding(.top, 16)
         }

@@ -40,6 +40,7 @@ struct ContentView: View {
                             VStack(spacing: 0) {
                                 SearchDashboard(searchText: $searchText, location: $location, locationViewModel: locationViewModel, businessViewModel: businessViewModel)
                             }
+                            
                             LazyVStack(spacing: 16) {
                                 ForEach(businessViewModel.items, id: \.self) { item in
                                     NavigationLink {
@@ -61,6 +62,7 @@ struct ContentView: View {
                                         }
                                 }
                             }
+                            .padding(.top, 46)
                             
                             if (businessViewModel.isLoading == false) {
                                 if (businessViewModel.message == "") {
