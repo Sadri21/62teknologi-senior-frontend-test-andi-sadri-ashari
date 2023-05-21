@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "yelp-logo_768x512.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

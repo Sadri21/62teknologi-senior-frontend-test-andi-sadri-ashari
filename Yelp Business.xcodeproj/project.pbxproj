@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A399C7D36558CCBBE616D7 /* Pods_Yelp_Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390552106441D6CC33DD98CC /* Pods_Yelp_Business.framework */; };
+		796D2D0E2A1A159500E600C2 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D0D2A1A159500E600C2 /* BorderView.swift */; };
+		796D2D102A1A1BE200E600C2 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D0F2A1A1BE200E600C2 /* LocationViewModel.swift */; };
+		796D2D122A1A1FAF00E600C2 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D112A1A1FAF00E600C2 /* ButtonModifier.swift */; };
+		796D2D172A1A219700E600C2 /* SearchDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D162A1A219700E600C2 /* SearchDashboard.swift */; };
+		796D2D1A2A1A2E4400E600C2 /* LoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D192A1A2E4400E600C2 /* LoadingDialog.swift */; };
+		796D2D1C2A1A2ECB00E600C2 /* CustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D1B2A1A2ECB00E600C2 /* CustomDialog.swift */; };
+		796D2D1E2A1A358E00E600C2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D1D2A1A358E00E600C2 /* Service.swift */; };
+		796D2D202A1A3E2200E600C2 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D1F2A1A3E2200E600C2 /* BusinessModel.swift */; };
+		796D2D232A1A417500E600C2 /* BusinessItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D222A1A417500E600C2 /* BusinessItemView.swift */; };
+		796D2D272A1A475900E600C2 /* RatingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D262A1A475900E600C2 /* RatingStar.swift */; };
+		796D2D292A1A478000E600C2 /* FiveStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D282A1A478000E600C2 /* FiveStarView.swift */; };
+		796D2D2B2A1A4D9600E600C2 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D2A2A1A4D9600E600C2 /* CategoryView.swift */; };
+		796D2D2D2A1A4F4900E600C2 /* ListBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D2C2A1A4F4900E600C2 /* ListBusinessViewModel.swift */; };
+		796D2D2F2A1A62FA00E600C2 /* DetailBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D2E2A1A62FA00E600C2 /* DetailBusinessView.swift */; };
+		796D2D332A1A680600E600C2 /* BusinessDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D322A1A680600E600C2 /* BusinessDetailModel.swift */; };
+		796D2D362A1A6A6000E600C2 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 796D2D352A1A6A6000E600C2 /* ACarousel */; };
+		796D2D382A1A729100E600C2 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D372A1A729100E600C2 /* ReviewModel.swift */; };
+		796D2D3B2A1A73A200E600C2 /* ReviewViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D2D3A2A1A73A200E600C2 /* ReviewViewItem.swift */; };
+		79C2DE142A16726800B3985A /* Yelp_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2DE132A16726800B3985A /* Yelp_BusinessApp.swift */; };
+		79C2DE162A16726800B3985A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2DE152A16726800B3985A /* ContentView.swift */; };
+		79C2DE182A16726A00B3985A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C2DE172A16726A00B3985A /* Assets.xcassets */; };
+		79C2DE1C2A16726A00B3985A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C2DE1B2A16726A00B3985A /* Preview Assets.xcassets */; };
+		79C2DE262A16726A00B3985A /* Yelp_BusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2DE252A16726A00B3985A /* Yelp_BusinessTests.swift */; };
+		79C2DE302A16726A00B3985A /* Yelp_BusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2DE2F2A16726A00B3985A /* Yelp_BusinessUITests.swift */; };
+		79C2DE322A16726A00B3985A /* Yelp_BusinessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2DE312A16726A00B3985A /* Yelp_BusinessUITestsLaunchTests.swift */; };
+		920F1F5E8881566143792C2C /* Pods_Yelp_BusinessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4536E57E083E764486BA8FA /* Pods_Yelp_BusinessTests.framework */; };
+		E1C8C5188CEAB24F497FFC1D /* Pods_Yelp_Business_Yelp_BusinessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC59DC8E00F54E653B97AB7 /* Pods_Yelp_Business_Yelp_BusinessUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79C2DE222A16726A00B3985A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C2DE082A16726700B3985A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C2DE0F2A16726800B3985A;
+			remoteInfo = "Yelp Business";
+		};
+		79C2DE2C2A16726A00B3985A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C2DE082A16726700B3985A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C2DE0F2A16726800B3985A;
+			remoteInfo = "Yelp Business";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390552106441D6CC33DD98CC /* Pods_Yelp_Business.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp_Business.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A60D3A01AA022E6E013AF15 /* Pods-Yelp BusinessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp BusinessTests.release.xcconfig"; path = "Target Support Files/Pods-Yelp BusinessTests/Pods-Yelp BusinessTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A458A80445CB8AEF7BC748E /* Pods-Yelp Business.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp Business.debug.xcconfig"; path = "Target Support Files/Pods-Yelp Business/Pods-Yelp Business.debug.xcconfig"; sourceTree = "<group>"; };
+		796D2D0D2A1A159500E600C2 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		796D2D0F2A1A1BE200E600C2 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		796D2D112A1A1FAF00E600C2 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		796D2D162A1A219700E600C2 /* SearchDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDashboard.swift; sourceTree = "<group>"; };
+		796D2D182A1A25EE00E600C2 /* Yelp-Business-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Yelp-Business-Info.plist"; sourceTree = SOURCE_ROOT; };
+		796D2D192A1A2E4400E600C2 /* LoadingDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDialog.swift; sourceTree = "<group>"; };
+		796D2D1B2A1A2ECB00E600C2 /* CustomDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialog.swift; sourceTree = "<group>"; };
+		796D2D1D2A1A358E00E600C2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		796D2D1F2A1A3E2200E600C2 /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
+		796D2D222A1A417500E600C2 /* BusinessItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessItemView.swift; sourceTree = "<group>"; };
+		796D2D262A1A475900E600C2 /* RatingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStar.swift; sourceTree = "<group>"; };
+		796D2D282A1A478000E600C2 /* FiveStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveStarView.swift; sourceTree = "<group>"; };
+		796D2D2A2A1A4D9600E600C2 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		796D2D2C2A1A4F4900E600C2 /* ListBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusinessViewModel.swift; sourceTree = "<group>"; };
+		796D2D2E2A1A62FA00E600C2 /* DetailBusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBusinessView.swift; sourceTree = "<group>"; };
+		796D2D322A1A680600E600C2 /* BusinessDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailModel.swift; sourceTree = "<group>"; };
+		796D2D372A1A729100E600C2 /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		796D2D3A2A1A73A200E600C2 /* ReviewViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewItem.swift; sourceTree = "<group>"; };
+		79C2DE102A16726800B3985A /* Yelp Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yelp Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C2DE132A16726800B3985A /* Yelp_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_BusinessApp.swift; sourceTree = "<group>"; };
+		79C2DE152A16726800B3985A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79C2DE172A16726A00B3985A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C2DE192A16726A00B3985A /* Yelp_Business.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yelp_Business.entitlements; sourceTree = "<group>"; };
+		79C2DE1B2A16726A00B3985A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79C2DE212A16726A00B3985A /* Yelp BusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yelp BusinessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C2DE252A16726A00B3985A /* Yelp_BusinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_BusinessTests.swift; sourceTree = "<group>"; };
+		79C2DE2B2A16726A00B3985A /* Yelp BusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yelp BusinessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C2DE2F2A16726A00B3985A /* Yelp_BusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_BusinessUITests.swift; sourceTree = "<group>"; };
+		79C2DE312A16726A00B3985A /* Yelp_BusinessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_BusinessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		991A69F277E06B8529A20904 /* Pods-Yelp Business-Yelp BusinessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp Business-Yelp BusinessUITests.release.xcconfig"; path = "Target Support Files/Pods-Yelp Business-Yelp BusinessUITests/Pods-Yelp Business-Yelp BusinessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C9F95AFEE358B69C0B3229 /* Pods-Yelp Business-Yelp BusinessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp Business-Yelp BusinessUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yelp Business-Yelp BusinessUITests/Pods-Yelp Business-Yelp BusinessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C8CD4898BC1936C5C5E16A /* Pods-Yelp Business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp Business.release.xcconfig"; path = "Target Support Files/Pods-Yelp Business/Pods-Yelp Business.release.xcconfig"; sourceTree = "<group>"; };
+		BDC59DC8E00F54E653B97AB7 /* Pods_Yelp_Business_Yelp_BusinessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp_Business_Yelp_BusinessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4536E57E083E764486BA8FA /* Pods_Yelp_BusinessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelp_BusinessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96F7DAF806D4F4213BD28CF /* Pods-Yelp BusinessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp BusinessTests.debug.xcconfig"; path = "Target Support Files/Pods-Yelp BusinessTests/Pods-Yelp BusinessTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C2DE0D2A16726800B3985A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796D2D362A1A6A6000E600C2 /* ACarousel in Frameworks */,
+				07A399C7D36558CCBBE616D7 /* Pods_Yelp_Business.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE1E2A16726A00B3985A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F1F5E8881566143792C2C /* Pods_Yelp_BusinessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE282A16726A00B3985A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C8C5188CEAB24F497FFC1D /* Pods_Yelp_Business_Yelp_BusinessUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01293BE785B22B4CAFD2148B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A458A80445CB8AEF7BC748E /* Pods-Yelp Business.debug.xcconfig */,
+				B9C8CD4898BC1936C5C5E16A /* Pods-Yelp Business.release.xcconfig */,
+				A4C9F95AFEE358B69C0B3229 /* Pods-Yelp Business-Yelp BusinessUITests.debug.xcconfig */,
+				991A69F277E06B8529A20904 /* Pods-Yelp Business-Yelp BusinessUITests.release.xcconfig */,
+				D96F7DAF806D4F4213BD28CF /* Pods-Yelp BusinessTests.debug.xcconfig */,
+				3A60D3A01AA022E6E013AF15 /* Pods-Yelp BusinessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B6EB7C70AA75D7FF03D6C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				390552106441D6CC33DD98CC /* Pods_Yelp_Business.framework */,
+				BDC59DC8E00F54E653B97AB7 /* Pods_Yelp_Business_Yelp_BusinessUITests.framework */,
+				D4536E57E083E764486BA8FA /* Pods_Yelp_BusinessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796D2D0C2A1A158100E600C2 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D0D2A1A159500E600C2 /* BorderView.swift */,
+				796D2D112A1A1FAF00E600C2 /* ButtonModifier.swift */,
+				796D2D192A1A2E4400E600C2 /* LoadingDialog.swift */,
+				796D2D1B2A1A2ECB00E600C2 /* CustomDialog.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		796D2D132A1A216800E600C2 /* ViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D392A1A739300E600C2 /* ReviewItemView */,
+				796D2D212A1A415F00E600C2 /* BusinessItemView */,
+				796D2D162A1A219700E600C2 /* SearchDashboard.swift */,
+			);
+			path = ViewItem;
+			sourceTree = "<group>";
+		};
+		796D2D212A1A415F00E600C2 /* BusinessItemView */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D222A1A417500E600C2 /* BusinessItemView.swift */,
+				796D2D262A1A475900E600C2 /* RatingStar.swift */,
+				796D2D282A1A478000E600C2 /* FiveStarView.swift */,
+				796D2D2A2A1A4D9600E600C2 /* CategoryView.swift */,
+			);
+			path = BusinessItemView;
+			sourceTree = "<group>";
+		};
+		796D2D392A1A739300E600C2 /* ReviewItemView */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D3A2A1A73A200E600C2 /* ReviewViewItem.swift */,
+			);
+			path = ReviewItemView;
+			sourceTree = "<group>";
+		};
+		79C2DE072A16726700B3985A = {
+			isa = PBXGroup;
+			children = (
+				79C2DE122A16726800B3985A /* Yelp Business */,
+				79C2DE242A16726A00B3985A /* Yelp BusinessTests */,
+				79C2DE2E2A16726A00B3985A /* Yelp BusinessUITests */,
+				79C2DE112A16726800B3985A /* Products */,
+				01293BE785B22B4CAFD2148B /* Pods */,
+				2B6EB7C70AA75D7FF03D6C16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79C2DE112A16726800B3985A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C2DE102A16726800B3985A /* Yelp Business.app */,
+				79C2DE212A16726A00B3985A /* Yelp BusinessTests.xctest */,
+				79C2DE2B2A16726A00B3985A /* Yelp BusinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C2DE122A16726800B3985A /* Yelp Business */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D182A1A25EE00E600C2 /* Yelp-Business-Info.plist */,
+				796D2D132A1A216800E600C2 /* ViewItem */,
+				796D2D0C2A1A158100E600C2 /* ViewModifier */,
+				79C2DE3F2A16737C00B3985A /* Model */,
+				79C2DE3E2A16737100B3985A /* ViewModel */,
+				79C2DE132A16726800B3985A /* Yelp_BusinessApp.swift */,
+				79C2DE152A16726800B3985A /* ContentView.swift */,
+				79C2DE172A16726A00B3985A /* Assets.xcassets */,
+				79C2DE192A16726A00B3985A /* Yelp_Business.entitlements */,
+				79C2DE1A2A16726A00B3985A /* Preview Content */,
+				796D2D1D2A1A358E00E600C2 /* Service.swift */,
+				796D2D2E2A1A62FA00E600C2 /* DetailBusinessView.swift */,
+			);
+			path = "Yelp Business";
+			sourceTree = "<group>";
+		};
+		79C2DE1A2A16726A00B3985A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79C2DE1B2A16726A00B3985A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79C2DE242A16726A00B3985A /* Yelp BusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C2DE252A16726A00B3985A /* Yelp_BusinessTests.swift */,
+			);
+			path = "Yelp BusinessTests";
+			sourceTree = "<group>";
+		};
+		79C2DE2E2A16726A00B3985A /* Yelp BusinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79C2DE2F2A16726A00B3985A /* Yelp_BusinessUITests.swift */,
+				79C2DE312A16726A00B3985A /* Yelp_BusinessUITestsLaunchTests.swift */,
+			);
+			path = "Yelp BusinessUITests";
+			sourceTree = "<group>";
+		};
+		79C2DE3E2A16737100B3985A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D0F2A1A1BE200E600C2 /* LocationViewModel.swift */,
+				796D2D2C2A1A4F4900E600C2 /* ListBusinessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79C2DE3F2A16737C00B3985A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				796D2D1F2A1A3E2200E600C2 /* BusinessModel.swift */,
+				796D2D322A1A680600E600C2 /* BusinessDetailModel.swift */,
+				796D2D372A1A729100E600C2 /* ReviewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C2DE0F2A16726800B3985A /* Yelp Business */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C2DE352A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp Business" */;
+			buildPhases = (
+				FD2F0A3DC3EA6D2EC743F833 /* [CP] Check Pods Manifest.lock */,
+				79C2DE0C2A16726800B3985A /* Sources */,
+				79C2DE0D2A16726800B3985A /* Frameworks */,
+				79C2DE0E2A16726800B3985A /* Resources */,
+				C658F7C6E834CDD992D71802 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yelp Business";
+			packageProductDependencies = (
+				796D2D352A1A6A6000E600C2 /* ACarousel */,
+			);
+			productName = "Yelp Business";
+			productReference = 79C2DE102A16726800B3985A /* Yelp Business.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79C2DE202A16726A00B3985A /* Yelp BusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C2DE382A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp BusinessTests" */;
+			buildPhases = (
+				56D8F855D98A3DF09419A53F /* [CP] Check Pods Manifest.lock */,
+				79C2DE1D2A16726A00B3985A /* Sources */,
+				79C2DE1E2A16726A00B3985A /* Frameworks */,
+				79C2DE1F2A16726A00B3985A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C2DE232A16726A00B3985A /* PBXTargetDependency */,
+			);
+			name = "Yelp BusinessTests";
+			productName = "Yelp BusinessTests";
+			productReference = 79C2DE212A16726A00B3985A /* Yelp BusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79C2DE2A2A16726A00B3985A /* Yelp BusinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C2DE3B2A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp BusinessUITests" */;
+			buildPhases = (
+				F360DE021C92363EDFC425A2 /* [CP] Check Pods Manifest.lock */,
+				79C2DE272A16726A00B3985A /* Sources */,
+				79C2DE282A16726A00B3985A /* Frameworks */,
+				79C2DE292A16726A00B3985A /* Resources */,
+				0024FD38640E6DD653C66C8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C2DE2D2A16726A00B3985A /* PBXTargetDependency */,
+			);
+			name = "Yelp BusinessUITests";
+			productName = "Yelp BusinessUITests";
+			productReference = 79C2DE2B2A16726A00B3985A /* Yelp BusinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C2DE082A16726700B3985A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					79C2DE0F2A16726800B3985A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					79C2DE202A16726A00B3985A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 79C2DE0F2A16726800B3985A;
+					};
+					79C2DE2A2A16726A00B3985A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 79C2DE0F2A16726800B3985A;
+					};
+				};
+			};
+			buildConfigurationList = 79C2DE0B2A16726700B3985A /* Build configuration list for PBXProject "Yelp Business" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79C2DE072A16726700B3985A;
+			packageReferences = (
+				796D2D342A1A6A6000E600C2 /* XCRemoteSwiftPackageReference "ACarousel" */,
+			);
+			productRefGroup = 79C2DE112A16726800B3985A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C2DE0F2A16726800B3985A /* Yelp Business */,
+				79C2DE202A16726A00B3985A /* Yelp BusinessTests */,
+				79C2DE2A2A16726A00B3985A /* Yelp BusinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C2DE0E2A16726800B3985A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C2DE1C2A16726A00B3985A /* Preview Assets.xcassets in Resources */,
+				79C2DE182A16726A00B3985A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE1F2A16726A00B3985A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE292A16726A00B3985A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0024FD38640E6DD653C66C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelp Business-Yelp BusinessUITests/Pods-Yelp Business-Yelp BusinessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelp Business-Yelp BusinessUITests/Pods-Yelp Business-Yelp BusinessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yelp Business-Yelp BusinessUITests/Pods-Yelp Business-Yelp BusinessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D8F855D98A3DF09419A53F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelp BusinessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C658F7C6E834CDD992D71802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelp Business/Pods-Yelp Business-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelp Business/Pods-Yelp Business-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yelp Business/Pods-Yelp Business-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F360DE021C92363EDFC425A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelp Business-Yelp BusinessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2F0A3DC3EA6D2EC743F833 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelp Business-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C2DE0C2A16726800B3985A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796D2D1C2A1A2ECB00E600C2 /* CustomDialog.swift in Sources */,
+				796D2D1A2A1A2E4400E600C2 /* LoadingDialog.swift in Sources */,
+				79C2DE162A16726800B3985A /* ContentView.swift in Sources */,
+				796D2D0E2A1A159500E600C2 /* BorderView.swift in Sources */,
+				796D2D3B2A1A73A200E600C2 /* ReviewViewItem.swift in Sources */,
+				796D2D232A1A417500E600C2 /* BusinessItemView.swift in Sources */,
+				796D2D172A1A219700E600C2 /* SearchDashboard.swift in Sources */,
+				796D2D2D2A1A4F4900E600C2 /* ListBusinessViewModel.swift in Sources */,
+				796D2D332A1A680600E600C2 /* BusinessDetailModel.swift in Sources */,
+				796D2D202A1A3E2200E600C2 /* BusinessModel.swift in Sources */,
+				796D2D1E2A1A358E00E600C2 /* Service.swift in Sources */,
+				796D2D2B2A1A4D9600E600C2 /* CategoryView.swift in Sources */,
+				79C2DE142A16726800B3985A /* Yelp_BusinessApp.swift in Sources */,
+				796D2D102A1A1BE200E600C2 /* LocationViewModel.swift in Sources */,
+				796D2D292A1A478000E600C2 /* FiveStarView.swift in Sources */,
+				796D2D2F2A1A62FA00E600C2 /* DetailBusinessView.swift in Sources */,
+				796D2D272A1A475900E600C2 /* RatingStar.swift in Sources */,
+				796D2D122A1A1FAF00E600C2 /* ButtonModifier.swift in Sources */,
+				796D2D382A1A729100E600C2 /* ReviewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE1D2A16726A00B3985A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C2DE262A16726A00B3985A /* Yelp_BusinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C2DE272A16726A00B3985A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C2DE322A16726A00B3985A /* Yelp_BusinessUITestsLaunchTests.swift in Sources */,
+				79C2DE302A16726A00B3985A /* Yelp_BusinessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79C2DE232A16726A00B3985A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C2DE0F2A16726800B3985A /* Yelp Business */;
+			targetProxy = 79C2DE222A16726A00B3985A /* PBXContainerItemProxy */;
+		};
+		79C2DE2D2A16726A00B3985A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C2DE0F2A16726800B3985A /* Yelp Business */;
+			targetProxy = 79C2DE2C2A16726A00B3985A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79C2DE332A16726A00B3985A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79C2DE342A16726A00B3985A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79C2DE362A16726A00B3985A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A458A80445CB8AEF7BC748E /* Pods-Yelp Business.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Yelp Business/Yelp_Business.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yelp Business/Preview Content\"";
+				DEVELOPMENT_TEAM = K97H5J34TH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yelp-Business-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-Business";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C2DE372A16726A00B3985A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C8CD4898BC1936C5C5E16A /* Pods-Yelp Business.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Yelp Business/Yelp_Business.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yelp Business/Preview Content\"";
+				DEVELOPMENT_TEAM = K97H5J34TH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yelp-Business-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-Business";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79C2DE392A16726A00B3985A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96F7DAF806D4F4213BD28CF /* Pods-Yelp BusinessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-BusinessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp Business.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yelp Business";
+			};
+			name = Debug;
+		};
+		79C2DE3A2A16726A00B3985A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A60D3A01AA022E6E013AF15 /* Pods-Yelp BusinessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-BusinessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp Business.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yelp Business";
+			};
+			name = Release;
+		};
+		79C2DE3C2A16726A00B3985A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C9F95AFEE358B69C0B3229 /* Pods-Yelp Business-Yelp BusinessUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-BusinessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yelp Business";
+			};
+			name = Debug;
+		};
+		79C2DE3D2A16726A00B3985A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991A69F277E06B8529A20904 /* Pods-Yelp Business-Yelp BusinessUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devtesting.Yelp-BusinessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yelp Business";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C2DE0B2A16726700B3985A /* Build configuration list for PBXProject "Yelp Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C2DE332A16726A00B3985A /* Debug */,
+				79C2DE342A16726A00B3985A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C2DE352A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C2DE362A16726A00B3985A /* Debug */,
+				79C2DE372A16726A00B3985A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C2DE382A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp BusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C2DE392A16726A00B3985A /* Debug */,
+				79C2DE3A2A16726A00B3985A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C2DE3B2A16726A00B3985A /* Build configuration list for PBXNativeTarget "Yelp BusinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C2DE3C2A16726A00B3985A /* Debug */,
+				79C2DE3D2A16726A00B3985A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		796D2D342A1A6A6000E600C2 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		796D2D352A1A6A6000E600C2 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 796D2D342A1A6A6000E600C2 /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79C2DE082A16726700B3985A /* Project object */;
+}
